@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { HiOutlineDocumentText } from "react-icons/hi";
 
-const RESUME_LINK = "https://drive.google.com/file/d/1xNif_brg06LbeumenNnAn_8CY2F1Pz-Z/view?usp=drive_link";
+const RESUME_LINK = "https://drive.google.com/file/d/1HHHxJU1aIaXKeOdBa_xcKu94VEQiS1ay/view?usp=drive_link";
 
 export default function ResumeButton() {
   const [bottom, setBottom] = useState(40);
