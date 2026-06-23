@@ -59,7 +59,7 @@ function ProjectCard({ project, idx, isDark, gradient }: { project: Project; idx
       <div className="relative h-48 sm:h-56 overflow-hidden">
         {image ? (
           <img
-            src={`${import.meta.env.BASE_URL}${image}`}
+            src={image}
             alt={project.title}
             className="absolute inset-0 w-full h-full object-cover object-top"
           />

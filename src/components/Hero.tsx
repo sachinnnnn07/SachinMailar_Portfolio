@@ -190,7 +190,7 @@ export default function Hero() {
                 : "bg-gradient-to-br from-primary via-accent to-primary-light"
             }`}>
               <img
-                src={`${import.meta.env.BASE_URL}Image.png`}
+                src="/Image.png"
                 alt="Sachin Mailar"
                 className="w-52 h-52 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full object-cover"
                 style={{ objectPosition: "center 15%", borderWidth: 6, borderStyle: "solid", borderColor: isDark ? "#1a1a1a" : "#faf6f0" }}

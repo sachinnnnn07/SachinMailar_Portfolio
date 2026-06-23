@@ -71,7 +71,7 @@ export const liveProjects = [
     period: "06/2026",
     link: "https://mindflip-game.vercel.app/",
     github: "https://github.com/sachinnnnn07/MindFlip",
-    image: "mindflip-preview.jpg",
+    image: "/mindflip-preview.jpg",
     description:
       "MindFlip is an interactive memory card matching game featuring multiple game modes — Player vs Player, Player vs Computer, Online Multiplayer with real-time room-based sessions, and a competitive Tournament mode (best-of-3). Built with a polished animated UI including aurora gradients, particle effects, combo tracking, dark/light themes, sound controls, and a global leaderboard.",
     highlights: [
@@ -90,7 +90,7 @@ export const liveProjects = [
     period: "06/2026",
     link: "#",
     github: "https://github.com/sachinnnnn07",
-    image: "portfolio-preview.png",
+    image: "/portfolio-preview.png",
     description:
       "A modern developer portfolio showcasing my skills, experience, and projects. Features a 3D interactive tech globe built with Three.js and React Three Fiber, a coffee-themed dark/light mode toggle, smooth scroll-driven animations, typewriter effects, and a fully responsive layout — all powered by React, TypeScript, Tailwind CSS, and Framer Motion.",
     highlights: [
