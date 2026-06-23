@@ -88,8 +88,8 @@ export const liveProjects = [
     role: "Full Stack Developer",
     location: "Gadag, Karnataka",
     period: "06/2026",
-    link: "#",
-    github: "https://github.com/sachinnnnn07",
+    link: "https://sachin-mailar-portfolio.vercel.app/",
+    github: "https://github.com/sachinnnnn07/SachinMailar_Portfolio",
     image: "/portfolio-preview.png",
     description:
       "A modern developer portfolio showcasing my skills, experience, and projects. Features a 3D interactive tech globe built with Three.js and React Three Fiber, a coffee-themed dark/light mode toggle, smooth scroll-driven animations, typewriter effects, and a fully responsive layout — all powered by React, TypeScript, Tailwind CSS, and Framer Motion.",
