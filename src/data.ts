@@ -65,6 +65,25 @@ export const projects = [
 
 export const liveProjects = [
   {
+    title: "AnimeVerse — Anime Discovery Platform",
+    role: "Frontend Developer",
+    location: "Gadag, Karnataka",
+    period: "06/2026",
+    link: "https://anime-verse-olive.vercel.app/",
+    github: "https://github.com/sachinnnnn07/AnimeVerse",
+    image: "/animeverse-preview.png",
+    description:
+      "AnimeVerse is a modern anime discovery platform where users can explore, search, and browse anime titles. Built with React and Vite, featuring a clean responsive UI for anime enthusiasts to discover their next favorite series.",
+    highlights: [
+      "Browse and discover anime titles with a clean, modern interface.",
+      "Search functionality to find anime by name or genre.",
+      "Responsive design optimized for all devices.",
+      "Fast performance powered by React and Vite.",
+    ],
+    techStack: ["React", "JavaScript", "CSS", "Vite"],
+    status: "live" as const,
+  },
+  {
     title: "MindFlip — Memory Card Game",
     role: "Full Stack Developer",
     location: "Gadag, Karnataka",
