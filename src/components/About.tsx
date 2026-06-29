@@ -85,13 +85,13 @@ export default function About() {
             variants={wordAnimation}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
-            className={`text-base sm:text-lg leading-relaxed text-justify flex flex-wrap ${
+            className={`text-base sm:text-lg leading-relaxed text-justify ${
               isDark ? "text-gray-300" : "text-coffee-600"
             }`}
           >
             {summaryWords.map((word, i) => (
-              <motion.span key={i} variants={letterAnimation} className="mr-1.5 mb-0.5 inline-block">
-                {word}
+              <motion.span key={i} variants={letterAnimation} className="inline">
+                {word}{" "}
               </motion.span>
             ))}
           </motion.p>

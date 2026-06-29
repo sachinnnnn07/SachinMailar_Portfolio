@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm run build 2>&1)",
+      "Bash(git init *)",
+      "Bash(rm -rf .git)",
+      "Bash(npm run *)",
+      "WebFetch(domain:mindflip-game.vercel.app)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ],
+    "additionalDirectories": [
+      "D:\\SachinMailarPortfolio\\.git"
+    ]
+  }
+}
