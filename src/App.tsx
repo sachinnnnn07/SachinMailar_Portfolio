@@ -13,6 +13,7 @@ import ResumeButton from "./components/ResumeButton";
 import SocialBar from "./components/SocialBar";
 import ProjectsShowcase from "./pages/ProjectsShowcase";
 import { useTheme } from "./ThemeContext";
+import LiquidCursor from "./components/LiquidCursor";
 
 function HomePage() {
   const { theme } = useTheme();
@@ -37,6 +38,7 @@ function HomePage() {
           backgroundPosition: "-1px -1px, -1px -1px, 39px 39px",
         }}
       />
+      <LiquidCursor />
       <Navbar />
       <SideNav />
       <SocialBar />

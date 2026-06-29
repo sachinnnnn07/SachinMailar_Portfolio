@@ -45,9 +45,7 @@ export default function Navbar() {
             className="text-xl sm:text-2xl font-bold tracking-tight"
             whileHover={{ scale: 1.05 }}
           >
-            <span className="text-accent">&lt;</span>
-            <span className={isDark || scrolled ? "text-white" : "text-coffee-900"}>Sachin</span>
-            <span className="text-accent"> /&gt;</span>
+            <img src="/logo.svg" alt="SM" className="w-10 h-10 rounded-lg" />
           </motion.a>
 
           <div className="hidden md:flex items-center gap-1">
