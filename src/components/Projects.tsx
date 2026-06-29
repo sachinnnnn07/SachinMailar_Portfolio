@@ -68,11 +68,11 @@ function ProjectCard({ project, isDark }: { project: typeof projects[0]; isDark:
 
   return (
     <div
-      className="group cursor-default"
+      className="group cursor-pointer"
       style={{ perspective: 1000 }}
       onMouseEnter={() => setFlipped(true)}
       onMouseLeave={() => setFlipped(false)}
-      onClick={() => setFlipped((f) => !f)}
+      onClick={() => window.open(project.link, "_blank")}
     >
       <div
         className="relative w-full transition-transform duration-700 ease-in-out"

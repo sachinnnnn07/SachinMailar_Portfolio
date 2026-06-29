@@ -34,8 +34,8 @@ function ProjectCard({ project, idx, isDark, gradient }: { project: Project; idx
       transition={{ duration: 0.4, delay: idx * 0.08 }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onClick={() => setHovered((h) => !h)}
-      className="group relative rounded-2xl cursor-default p-[1px]"
+      onClick={() => { if (project.link && project.link !== "#") window.open(project.link, "_blank"); }}
+      className="group relative rounded-2xl cursor-pointer p-[1px]"
     >
       {/* Animated glow border */}
       <div
