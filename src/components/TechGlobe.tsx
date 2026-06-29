@@ -97,7 +97,7 @@ function Globe({ isDark, rotRef }: { isDark: boolean; rotRef: React.RefObject<{ 
   });
 
   return (
-    <group ref={groupRef} rotation={[0.3, 0, 0]}>
+    <group ref={groupRef}>
       <mesh>
         <sphereGeometry args={[2.7, 32, 32]} />
         <meshBasicMaterial color={isDark ? "#111111" : "#2a1c14"} transparent opacity={0.92} />
